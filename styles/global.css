@@ -94,4 +94,35 @@ main {
             background-image: url("../assets/icons/icon-search-.png");
         }
     }
+
+    .links-section-body {
+        .link-button {
+            width: 480px;
+            margin: auto;
+            padding: 5px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            background-color: lightcoral;
+    
+            .link-button-icon {
+                width: 30px;
+                height: 30px;
+                margin-left: 5px;
+                position: absolute;
+                border-radius: 20px;
+                background-size: 30px 30px;
+                background-repeat: no-repeat;
+                background-image: url("../assets/icons/shopee.webp");
+            }
+    
+            p {
+                color: #fff;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
 }
