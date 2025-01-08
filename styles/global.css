@@ -20,7 +20,7 @@ hr {
 }
 
 #main-page {
-    width: 600px;
+    width: 500px;
     margin: auto;
 }
 
@@ -52,7 +52,7 @@ hr {
 }
 
 .links-section {
-    width: 90%;
+    width: 100%;
     margin: auto;
 
     .links-section-header {
