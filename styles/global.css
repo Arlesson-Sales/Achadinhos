@@ -8,6 +8,7 @@
     --color_01: #fee5e5;
     --color_02: #f6f6f6;
     --color_03: #f08080;
+    --color_04: #202020;
 }
 
 body {
@@ -24,8 +25,10 @@ body {
     font-size: 8pt;
     text-align: center;
     padding-bottom: 10px;
-    font-family: Sans-serif;
+    color: var(--color_04);
+    font-family: Merriweather;
     margin: 20px auto 10px auto;
+    
     
     #profile-header-image {
         width: 100px;
@@ -35,12 +38,12 @@ body {
     }
 
     h1 {
-        font-weight: 550;
+        font-weight: bold;
     }
 
     h2 {
-        font-weight: 100;
-        font-size: 15px;
+        font-weight: 200;
+        font-size: 18px;
     }
 }
 
@@ -51,24 +54,40 @@ body {
     .links-section-header {
         width: 90%;
         margin: auto;
-        height: 400px;
+        height: 410px;
         border-radius: 15px;
-
-        display: flex;
-        align-items: end;
+        background-color: var(--color_03);
         
-        background-size: 100% 400px;
-        background-repeat: no-repeat;
-        background-image: url(../assets/imgs/bg-1.jpg);
+        .header-background {
+            width: 100%;
+            margin: auto;
+            height: 410px;
+            position: relative;
+            border-radius: 15px;
+            background-size: 100% 410px;
+            background-repeat: no-repeat;
+            background-image: url(../assets/imgs/bg-1.jpg);
+            transition: all 0.5s ease-in-out;
+
+            /* Trocando o tamanho da imagem de fundo do cabeçalho da seção se links caso a tela seja menor que 400px */
+            @media (max-width: 400px) {
+                top: 10px;
+                width: 90%;
+                height: 335px;
+                transition: top 0.5 ease-out;
+            }
+        }
 
         .links-section-titles {
+            top: 545px;
             color: #fff;
-            font-size: 20px;
-            text-indent: 10px;
+            font-size: 25px;
+            text-indent: 12px;
             margin-bottom: 8px;
+            position: absolute;
 
             h5 {
-                font-size: 15px;
+                font-size: 18px;
                 font-weight: 200;
             }
         }
@@ -86,8 +105,8 @@ body {
             height: 40px;
             text-indent: 15px;
             position: relative;
-            background-color: var(--color_02);
             border-radius: 10px 0 0 10px;
+            background-color: var(--color_02);
         }
 
         .search-icon {
@@ -115,6 +134,7 @@ body {
             margin-bottom: 15px;
             border: 1px solid var(--color_03);
             background-color: var(--color_03);
+            transition: all 0.4s ease-in-out;
     
             .link-button-icon {
                 width: 30px;
