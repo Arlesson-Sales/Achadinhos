@@ -20,7 +20,7 @@ hr {
 }
 
 #main-page {
-    width: 500px;
+    width: 400px;
     margin: auto;
 }
 
@@ -32,7 +32,6 @@ hr {
     color: var(--color_04);
     font-family: Merriweather;
     margin: 20px auto 10px auto;
-    
     
     #profile-header-image {
         width: 100px;
@@ -52,11 +51,11 @@ hr {
 }
 
 .links-section {
-    width: 100%;
+    width: 95%;
     margin: auto;
 
     .links-section-header {
-        width: 90%;
+        width: 100%;
         margin: auto;
         height: 410px;
         border-radius: 15px;
@@ -70,8 +69,8 @@ hr {
             border-radius: 15px;
             background-size: 100% 410px;
             background-repeat: no-repeat;
-            background-image: url(../assets/imgs/bg-1.jpg);
             transition: all 0.5s ease-in-out;
+            background-image: url(../assets/imgs/bg-1.jpg);
 
             /* Trocando o tamanho da imagem de fundo do cabeçalho da seção se links caso a tela seja menor que 400px */
             @media (max-width: 400px) {
@@ -98,23 +97,23 @@ hr {
     }
 
     .links-search-input {
-        width: 480px;
+        width: 100%;
         margin: 15px auto;
+        position: relative;
         
         input[type="search"] {
             outline: 0;
-            padding: 10px;
-            width: 450px;
+            width: 90%;
             border: none;
             height: 40px;
+            padding: 10px;
             text-indent: 15px;
-            position: relative;
             border-radius: 10px 0 0 10px;
             background-color: var(--color_02);
         }
 
         .search-icon {
-            width: 30px;
+            width: 40px;
             height: 40px;
             position: absolute;
             display: inline-block;
@@ -132,7 +131,7 @@ hr {
         margin-bottom: 50px;
 
         .link-button {
-            width: 480px;
+            width: 95%;
             margin: auto;
             padding: 5px;
             display: block;
