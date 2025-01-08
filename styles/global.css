@@ -15,6 +15,10 @@ body {
     background-color: var(--color_01);
 }
 
+hr {
+    color: black;
+}
+
 #main-page {
     width: 600px;
     margin: auto;
@@ -125,13 +129,18 @@ body {
     }
 
     .links-section-body {
+        margin-bottom: 50px;
+
         .link-button {
             width: 480px;
             margin: auto;
             padding: 5px;
+            display: block;
             cursor: pointer;
+            user-select: none;
             border-radius: 10px;
             margin-bottom: 15px;
+            text-decoration: none;
             border: 1px solid var(--color_03);
             background-color: var(--color_03);
             transition: all 0.4s ease-in-out;
