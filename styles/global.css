@@ -93,7 +93,7 @@ hr {
                 top: 20px;
                 width: 90%;
                 height: 335px;
-                transition: all 0.5 ease-out;
+                transition: all 0.2 linear;
             }
         }
 
@@ -149,6 +149,10 @@ hr {
 
     .links-section-body {
         margin-bottom: 50px;
+
+        ul {
+            list-style-type: none;
+        }
 
         .link-button {
             width: 95%;
