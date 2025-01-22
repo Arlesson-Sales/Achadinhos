@@ -11,6 +11,10 @@
     --color_04: #202020;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: var(--color_01);
 }
@@ -20,13 +24,15 @@ hr {
 }
 
 #main-page {
-    width: 400px;
     margin: auto;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
 }
 
 #main-page-header {
     width: 100%;
-    font-size: 8pt;
+    font-size: 1rem;
     text-align: center;
     padding-bottom: 10px;
     color: var(--color_04);
@@ -42,11 +48,21 @@ hr {
 
     h1 {
         font-weight: bold;
+        transition: all linear 0.2s;
+
+        @media (max-width: 330px) {
+            font-size: 1.8rem;
+        }
     }
 
     h2 {
         font-weight: 200;
-        font-size: 18px;
+        font-size: 1.1rem;
+        transition: all linear 0.2s;
+
+        @media (max-width: 370px) {
+            font-size: 0.9rem;
+        }
     }
 }
 
@@ -57,41 +73,45 @@ hr {
     .links-section-header {
         width: 100%;
         margin: auto;
-        height: 410px;
+        height: 420px;
         border-radius: 15px;
         background-color: var(--color_03);
         
         .header-background {
             width: 100%;
             margin: auto;
-            height: 410px;
+            height: 420px;
             position: relative;
             border-radius: 15px;
-            background-size: 100% 410px;
+            background-size: 100% 420px;
             background-repeat: no-repeat;
             transition: all 0.5s ease-in-out;
             background-image: url(../assets/imgs/bg-1.jpg);
 
             /* Trocando o tamanho da imagem de fundo do cabeçalho da seção se links caso a tela seja menor que 400px */
             @media (max-width: 400px) {
-                top: 10px;
+                top: 20px;
                 width: 90%;
                 height: 335px;
-                transition: top 0.5 ease-out;
+                transition: all 0.5 ease-out;
             }
         }
 
         .links-section-titles {
-            top: 545px;
+            top: 570px;
             color: #fff;
             font-size: 25px;
             text-indent: 12px;
-            margin-bottom: 8px;
             position: absolute;
 
             h5 {
                 font-size: 18px;
                 font-weight: 200;
+            }
+
+            @media (max-width: 400px) {
+                top: 570px;
+                transition: top 0.5 ease-out;
             }
         }
     }
