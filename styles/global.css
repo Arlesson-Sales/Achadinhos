@@ -90,15 +90,14 @@ hr {
             align-items: flex-end;
             justify-content: first baseline;
 
-            width: 100%;
+            width: 95%;
             margin: auto;
-            height: inherit;
+            height: 95%;
             border-radius: 15px;
             transition: all 0.2s linear;
 
             background-size: 100% 420px;
             background-repeat: no-repeat;
-            background-image: url(../assets/imgs/bg-1.jpg);
 
             /* Trocando o tamanho da imagem de fundo do cabeçalho da seção se links caso a tela seja menor que 400px */
             @media (max-width: 450px) {

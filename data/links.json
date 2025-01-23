@@ -1,47 +1,111 @@
 {
     "data": [
         {
-            "title": "Maquiagens",
-            "sub_title": "Testando",
+            "title": "Maquiagem",
+            "sub_title": "Links das maquiagens",
             "background": "../assets/imgs/bg-1.jpg",
             "links": [
                 {
-                    "name": "botão de link 01",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 02",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 03",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 03",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 04",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 05",
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "title": "Roupas femininas",
+            "sub_title": "Links de lojas de roupa",
+            "background": "../assets/imgs/bg-2.jpg",
+            "links": [
+                {
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 06",
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 },
                 {
-                    "name": "botão de link 07",
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "title": "joiase",
+            "sub_title": "Links paras joais",
+            "background": "../assets/imgs/bg-3.jpg",
+            "links": [
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link",
                     "type": "shopee",
                     "href": "#"
                 }
