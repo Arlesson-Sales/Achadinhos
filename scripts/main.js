@@ -24,7 +24,7 @@ function createLinksButtons(links_data)
         const list_item = document.createElement("li");
         list_item.innerHTML = `
             <a class="link-button" href="${link.href}" target="_blank">
-                <div class="link-button-icon" style="background-image: url("../assets/icons/${link.type}").webp"></div>
+                <div class="link-button-icon" style="background-image: url('../assets/icons/${link.type}').webp"></div>
                 <p>${link.name}</p>
             </a>
         `;
@@ -42,7 +42,7 @@ function createLinkSectionHTML({ data })
         html_section.innerHTML = `
             <header>
                 <div class="links-section-header">
-                    <div class="header-background" style="background-image: url("${section_data.background}")">
+                    <div class="header-background" style="background-image: url('${section_data.background}')">
                         <div class="links-section-titles">
                             <h4>${section_data.title}</h4>
                             <h5>${section_data.sub_title}</h5>
