@@ -71,47 +71,54 @@ hr {
     margin: auto;
 
     .links-section-header {
+        display: flex;
+        align-items: center;
+
         width: 100%;
         margin: auto;
         height: 420px;
         border-radius: 15px;
         background-color: var(--color_03);
-        
+
+
+        @media (max-width: 450px) {
+            height: 350px;
+        }
+    
         .header-background {
+            display: flex;
+            align-items: flex-end;
+            justify-content: first baseline;
+
             width: 100%;
             margin: auto;
-            height: 420px;
-            position: relative;
+            height: inherit;
             border-radius: 15px;
+            transition: all 0.2s linear;
+
             background-size: 100% 420px;
             background-repeat: no-repeat;
-            transition: all 0.5s ease-in-out;
             background-image: url(../assets/imgs/bg-1.jpg);
 
             /* Trocando o tamanho da imagem de fundo do cabeçalho da seção se links caso a tela seja menor que 400px */
-            @media (max-width: 400px) {
-                top: 20px;
-                width: 90%;
-                height: 335px;
+            @media (max-width: 450px) {
+                width: 95%;
+                height: 95%;
                 transition: all 0.2 linear;
+                background-size: 100% 400px;
             }
         }
 
         .links-section-titles {
-            top: 570px;
             color: #fff;
             font-size: 25px;
             text-indent: 12px;
-            position: absolute;
+            margin-bottom: 10px;
+            transition: all 0.2s linear;
 
             h5 {
                 font-size: 18px;
                 font-weight: 200;
-            }
-
-            @media (max-width: 400px) {
-                top: 570px;
-                transition: top 0.5 ease-out;
             }
         }
     }
