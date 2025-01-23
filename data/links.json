@@ -3,7 +3,7 @@
         {
             "title": "Maquiagem",
             "sub_title": "Links das maquiagens",
-            "background": "../assets/imgs/bg-1.jpg",
+            "background": "\/assets\/imgs\/bg-1.jpg",
             "links": [
                 {
                     "name": "botão de link",
@@ -40,7 +40,7 @@
         {
             "title": "Roupas femininas",
             "sub_title": "Links de lojas de roupa",
-            "background": "../assets/imgs/bg-2.jpg",
+            "background": "\/assets\/imgs\/bg-2.jpg",
             "links": [
                 {
                     "name": "botão de link",
@@ -77,7 +77,7 @@
         {
             "title": "joiase",
             "sub_title": "Links paras joais",
-            "background": "../assets/imgs/bg-3.jpg",
+            "background": "\/assets\/imgs\/bg-3.jpg",
             "links": [
                 {
                     "name": "botão de link",
