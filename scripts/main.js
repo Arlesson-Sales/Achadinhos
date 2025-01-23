@@ -42,7 +42,7 @@ function createLinkSectionHTML({ data })
         html_section.innerHTML = `
             <header>
                 <div class="links-section-header">
-                    <div class="header-background" style="background-image: url('${section_data.background}')">
+                    <div class="header-background" style="background-image: url('./assets/imgs/${section_data.background}')">
                         <div class="links-section-titles">
                             <h4>${section_data.title}</h4>
                             <h5>${section_data.sub_title}</h5>
@@ -57,7 +57,7 @@ function createLinkSectionHTML({ data })
         `
         const links_buttons_list = createLinksButtons(section_data.links);
         html_section.appendChild(links_buttons_list);
-
+        
         document.body.children[1].appendChild(html_section);
     }
 }
