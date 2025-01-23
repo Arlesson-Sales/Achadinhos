@@ -195,6 +195,7 @@ hr {
                 color: #fff;
                 height: 30px;
                 display: flex;
+                text-indent: -20px;
                 align-items: center;
                 justify-content: center;
             }

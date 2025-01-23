@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "title": "Maquiagens",
+            "sub_title": "Testando",
+            "background": "../assets/imgs/bg-1.jpg",
+            "links": [
+                {
+                    "name": "botão de link 01",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 02",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 03",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 03",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 04",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 05",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 06",
+                    "type": "shopee",
+                    "href": "#"
+                },
+                {
+                    "name": "botão de link 07",
+                    "type": "shopee",
+                    "href": "#"
+                }
+            ]
+        }
+    ]
+}
